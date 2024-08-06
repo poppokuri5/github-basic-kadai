@@ -1,0 +1,24 @@
+poppokuri@KTMacBook-Air ~ % cd /Users/poppokuri/Documents/samurai
+poppokuri@KTMacBook-Air samurai % mkdir git_challenge
+poppokuri@KTMacBook-Air samurai % cd git_challenge
+poppokuri@KTMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/poppokuri/Documents/samurai/git_challenge/.git/
+poppokuri@KTMacBook-Air git_challenge % touch hello_world.txt
+poppokuri@KTMacBook-Air git_challenge % echo 'Hello, world!' >> hello_world.txt
+poppokuri@KTMacBook-Air git_challenge % git add hello_world.txt
+poppokuri@KTMacBook-Air git_challenge % git commit -m 'hello_world.txtを追 加'
+[main (root-commit) 4bd24ad] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+poppokuri@KTMacBook-Air git_challenge % echo 'こんにちは、世界!' >> hello_w
+orld.txt
+poppokuri@KTMacBook-Air git_challenge % git add hello_world.txt
+poppokuri@KTMacBook-Air git_challenge % git commit -m '日本語訳を追記'
+[main 7fc98fa] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+poppokuri@KTMacBook-Air git_challenge % git log --oneline
+7fc98fa (HEAD -> main) 日本語訳を追記
+4bd24ad hello_world.txtを追加
+poppokuri@KTMacBook-Air git_challenge % mkdir kadai_005
+poppokuri@KTMacBook-Air git_challenge % cd kadai_005
+poppokuri@KTMacBook-Air kadai_005 % touch kadai_005.txt
